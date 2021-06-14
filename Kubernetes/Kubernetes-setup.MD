@@ -37,10 +37,10 @@
    aws configure
     ```
     
-   # Attach roles a uma instancia:
-	EC2 -> Instances -> i-0687ff95b98679d4b -> Modify IAM role
+   # Attach de roles a uma instancia:
+	EC2 -> Instances -> <ID da instancia> -> Modify IAM role
 	
-	Fonte: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html#attach-iam-role
+	-> Fonte: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html#attach-iam-role
 
 1. Create a Route53 private hosted zone (you can create Public hosted zone if you have a domain)
    ```sh
